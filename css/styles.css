@@ -1,0 +1,221 @@
+@font-face {
+    font-family: "IRANSans";
+    src: url("font/WebFonts/fonts/woff2/IRANSansWeb.woff2");
+}
+
+* {
+    /* color: var(--text-color); */
+    text-align: right;
+    font-family: "IRANSans";
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+svg {
+    color: var(--gray-color);
+}
+
+.main-btn {
+
+    height: 35px;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.look-like-btn {
+    border: 1px solid var(--main-color);
+    height: 35px;
+    border-radius: 7px;
+    color: var(--main-color);
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+
+}
+@media screen and (max-width:768px) {
+   .main-btn{
+    width: 90px;
+    height: 30px;
+   } 
+}
+.body-color {
+    background-color: var(--bg-color);
+}
+
+#page-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    background-color: var(--bg-color);
+
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px 8px 5px 8px;
+    height: 38px;
+    border-bottom: 1px solid var(--line-color);
+}
+#page-header h6{
+    color: var(--text-color);
+}
+
+.top-for-menu {
+    position: fixed;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px 8px 5px 8px;
+    height: 36px;
+    /* border-bottom: 1px solid #C2C2C2; */
+    background-color: var(--box-wrapper);
+
+}
+
+/* .sidebar::after{
+    content: "";
+    display: block;
+    width: 93%;
+    height: 1px;
+    background-color: #C2C2C2;
+} */
+.top-for-menu img {
+    width: 17%;
+
+}
+
+.sidebar-wrapper {
+    position: fixed;
+    width: 15%;
+    padding: 10px 8px 10px 8px;
+    height: 100vh;
+    background-color: var(--box-wrapper);
+
+
+
+}
+
+.sidebar-wrapper nav {
+    background-color: var(--background);
+    right: 0;
+    height: 100%;
+    /* overflow-y: scroll; */
+    direction: ltr;
+    padding-bottom: 100px;
+}
+
+.sidebar-wrapper nav::-webkit-scrollbar {
+
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    width: 8px;
+}
+
+.sidebar-wrapper nav::-webkit-scrollbar-thumb {
+    background-color: #b5b5b5;
+    border-radius: 10px;
+    
+}
+
+.sidebar-wrapper nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: flex;
+    padding: 12px 15px;
+    color: var(--gray-color);
+    text-decoration: none;
+    transition: all 0.5s;
+    justify-content: flex-end;
+    border-left: 3px solid var(--main-color);
+    border-color: transparent;
+
+}
+
+nav ul li a svg {
+    transition: color 0.5s;
+}
+
+.sidebar-wrapper nav ul li a:hover {
+    border-color: var(--main-color);
+    color: black;
+}
+
+.sidebar-wrapper nav ul li a:hover svg {
+    color: var(--main-color);
+}
+
+.sidebar-wrapper nav ul li a .fa {
+    width: 16px;
+    text-align: center;
+    margin-right: 5px;
+    float: right;
+}
+
+.sidebar-wrapper nav ul ul li a {
+    color: var(--gray-color);
+}
+
+.sidebar-wrapper span {
+    padding-right: 14px;
+}
+
+.profile {
+    height: 100%;
+    width: 8%;
+    color: var(--text-color);
+}
+
+.switcher {
+    display: flex;
+    height: 100%;
+    min-width: 8%;
+    direction: ltr;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.profile div {
+    color: var(--main-txt);
+}
+
+.profile-name {
+    text-decoration: none;
+    color: var(--main-txt);
+}
+
+.offcanvas {
+    width: 55% !important;
+}
+
+.offcanvas-body {
+    padding: 0;
+}
+

@@ -1,0 +1,11 @@
+:root{
+    --main-color:#2b7c62c4;
+    --text-color:rgb(204, 195, 195);
+    --bg-color:#363636;
+    --gray-color: #cecece;
+    --box-wrapper:#1a1a1a;
+    --date-month: rgba(250, 250, 250, 0.3);
+    --line-color: #575757;
+    --table-header:#4b4b4b;
+
+}
