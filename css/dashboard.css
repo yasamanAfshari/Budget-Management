@@ -289,3 +289,10 @@ tr{
 .datepicker-plot-area{
     background-color: var(--box-wrapper) !important;
 }
+.container{
+    height: 290px;
+}
+#loadingMessage img{
+    width: -webkit-fill-available;
+    height: 280px;
+}
