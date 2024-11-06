@@ -102,7 +102,7 @@ function getChartData() {
 
         error: function (err) {
 
-            $("#loadingMessage").html("Error");
+            $("#loadingMessage").html('<img src="img/No-data-rafiki.png">');
 
 
         }
