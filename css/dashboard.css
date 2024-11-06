@@ -287,5 +287,5 @@ tr{
 }
 
 .datepicker-plot-area{
-    background-color: var(--box-wrapper);
+    background-color: var(--box-wrapper) !important;
 }
